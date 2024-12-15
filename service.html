@@ -1,107 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Zoofari - Zoo & Safari Park Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <title>Zoofari - Zoo & Safari Park Website Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
 
-    <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <style>
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
+    rel="stylesheet" />
 
-      :root {
-    --primary: #2EB872;
-    --light: #F3F4F5;
-    --dark: #282F34;
-}
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #2EB872;
+      --light: #F3F4F5;
+      --dark: #282F34;
+    }
 
-.back-to-top {
-    position: fixed;
-    display: none;
-    right: 45px;
-    bottom: 45px;
-    z-index: 99;
-}
-.navbar.sticky-top {
-    top: -100px;
-    transition: .5s;
-}
+    .back-to-top {
+      position: fixed;
+      display: none;
+      right: 45px;
+      bottom: 45px;
+      z-index: 99;
+    }
 
-.navbar .navbar-brand {
-    display: flex;
-    align-items: center;
-}
+    .navbar.sticky-top {
+      top: -100px;
+      transition: .5s;
+    }
 
-.navbar .navbar-brand img {
-    max-height: 50px;
-}
+    .navbar .navbar-brand {
+      display: flex;
+      align-items: center;
+    }
 
-.navbar .dropdown-toggle::after {
-    border: none;
-    content: "\f107";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    vertical-align: middle;
-    margin-left: 8px;
-}
+    .navbar .navbar-brand img {
+      max-height: 50px;
+    }
 
-.navbar .navbar-nav .nav-link {
-    margin-right: 30px;
-    padding: 25px 0;
-    color: #1e1a1a;
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: uppercase;
-    outline: none;
-}
+    .navbar .dropdown-toggle::after {
+      border: none;
+      content: "\f107";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      vertical-align: middle;
+      margin-left: 8px;
+    }
 
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
-}
+    .navbar .navbar-nav .nav-link {
+      margin-right: 30px;
+      padding: 25px 0;
+      color: #1e1a1a;
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
+      outline: none;
+    }
 
-@media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
+    .navbar .navbar-nav .nav-link:hover,
+    .navbar .navbar-nav .nav-link.active {
+      color: var(--primary);
+    }
+
+    @media (max-width: 991.98px) {
+      .navbar .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
-    }
+      }
 
-    .navbar .navbar-nav {
+      .navbar .navbar-nav {
         border-top: 1px solid #ada5a5;
+      }
     }
-}
 
-.navbar .navbar-nav .nav-link {
-    color: var(--dark);
-    font-weight: 500;
-}
+    .navbar .navbar-nav .nav-link {
+      color: var(--dark);
+      font-weight: 500;
+    }
 
 
-@media (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
+    @media (min-width: 992px) {
+      .navbar .nav-item .dropdown-menu {
         display: block;
         border: none;
         margin-top: 0;
@@ -109,330 +106,326 @@
         opacity: 0;
         visibility: hidden;
         transition: .5s;
-    }
+      }
 
-    .navbar .nav-item:hover .dropdown-menu {
+      .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
         transition: .5s;
         opacity: 1;
+      }
     }
-}
-/*** Header ***/
-.header-bg {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(bg-1.jpg) center center no-repeat;
-    background-size: cover;
-}
 
-.btn-play {
-    position: relative;
-    display: block;
-    box-sizing: content-box;
-    width: 16px;
-    height: 26px;
-    border-radius: 100%;
-    border: none;
-    outline: none !important;
-    padding: 18px 20px 20px 28px;
-    background: #FFFFFF;
-}
+    /*** Header ***/
+    .header-bg {
+      background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(bg-1.jpg) center center no-repeat;
+      background-size: cover;
+    }
 
-.btn-play:before {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 60px;
-    height: 60px;
-    background: #FFFFFF;
-    border-radius: 100%;
-    animation: pulse-border 1500ms ease-out infinite;
-}
+    .btn-play {
+      position: relative;
+      display: block;
+      box-sizing: content-box;
+      width: 16px;
+      height: 26px;
+      border-radius: 100%;
+      border: none;
+      outline: none !important;
+      padding: 18px 20px 20px 28px;
+      background: #FFFFFF;
+    }
 
-.btn-play:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 60px;
-    height: 60px;
-    background: #FFFFFF;
-    border-radius: 100%;
-    transition: all 200ms;
-}
+    .btn-play:before {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      display: block;
+      width: 60px;
+      height: 60px;
+      background: #FFFFFF;
+      border-radius: 100%;
+      animation: pulse-border 1500ms ease-out infinite;
+    }
 
-.btn-play span {
-    display: block;
-    position: relative;
-    z-index: 3;
-    width: 0;
-    height: 0;
-    left: -1px;
-    border-left: 16px solid var(--primary);
-    border-top: 11px solid transparent;
-    border-bottom: 11px solid transparent;
-}
+    .btn-play:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      display: block;
+      width: 60px;
+      height: 60px;
+      background: #FFFFFF;
+      border-radius: 100%;
+      transition: all 200ms;
+    }
 
-@keyframes pulse-border {
-    0% {
+    .btn-play span {
+      display: block;
+      position: relative;
+      z-index: 3;
+      width: 0;
+      height: 0;
+      left: -1px;
+      border-left: 16px solid var(--primary);
+      border-top: 11px solid transparent;
+      border-bottom: 11px solid transparent;
+    }
+
+    @keyframes pulse-border {
+      0% {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
         opacity: 1;
-    }
+      }
 
-    100% {
+      100% {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
         opacity: 0;
+      }
     }
-}
 
-.modal-video .modal-dialog {
-    position: relative;
-    max-width: 800px;
-    margin: 60px auto 0 auto;
-}
+    .modal-video .modal-dialog {
+      position: relative;
+      max-width: 800px;
+      margin: 60px auto 0 auto;
+    }
 
-.modal-video .modal-body {
-    position: relative;
-    padding: 0px;
-}
+    .modal-video .modal-body {
+      position: relative;
+      padding: 0px;
+    }
 
-.modal-video .close {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    right: 0px;
-    top: -30px;
-    z-index: 999;
-    font-size: 30px;
-    font-weight: normal;
-    color: #FFFFFF;
-    background: #000000;
-    opacity: 1;
-}
+    .modal-video .close {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      right: 0px;
+      top: -30px;
+      z-index: 999;
+      font-size: 30px;
+      font-weight: normal;
+      color: #FFFFFF;
+      background: #000000;
+      opacity: 1;
+    }
 
-.header-carousel .owl-nav {
-    position: absolute;
-    width: 200px;
-    height: 40px;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: space-between;
-}
+    .header-carousel .owl-nav {
+      position: absolute;
+      width: 200px;
+      height: 40px;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: space-between;
+    }
 
-.header-carousel .owl-nav .owl-prev,
-.header-carousel .owl-nav .owl-next {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    background: transparent;
-    border: 1px solid #FFFFFF;
-    font-size: 22px;
-    transition: .5s;
-}
+    .header-carousel .owl-nav .owl-prev,
+    .header-carousel .owl-nav .owl-next {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      background: transparent;
+      border: 1px solid #FFFFFF;
+      font-size: 22px;
+      transition: .5s;
+    }
 
-.header-carousel .owl-nav .owl-prev:hover,
-.header-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
-    border-color: var(--primary);
-}
+    .header-carousel .owl-nav .owl-prev:hover,
+    .header-carousel .owl-nav .owl-next:hover {
+      background: var(--primary);
+      border-color: var(--primary);
+    }
 
-.header-carousel .owl-dots {
-    position: absolute;
-    height: 45px;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .header-carousel .owl-dots {
+      position: absolute;
+      height: 45px;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-.header-carousel .owl-dot {
-    position: relative;
-    display: inline-block;
-    margin: 0 5px;
-    width: 15px;
-    height: 15px;
-    background: transparent;
-    border: 1px solid #FFFFFF;
-    transition: .5s;
-}
+    .header-carousel .owl-dot {
+      position: relative;
+      display: inline-block;
+      margin: 0 5px;
+      width: 15px;
+      height: 15px;
+      background: transparent;
+      border: 1px solid #FFFFFF;
+      transition: .5s;
+    }
 
-.header-carousel .owl-dot::after {
-    position: absolute;
-    content: "";
-    width: 5px;
-    height: 5px;
-    top: 4px;
-    left: 4px;
-    background: #FFFFFF;
-    border-radius: 5px;
-}
+    .header-carousel .owl-dot::after {
+      position: absolute;
+      content: "";
+      width: 5px;
+      height: 5px;
+      top: 4px;
+      left: 4px;
+      background: #FFFFFF;
+      border-radius: 5px;
+    }
 
-.header-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
-}
+    .header-carousel .owl-dot.active {
+      background: var(--primary);
+      border-color: var(--primary);
+    }
 
-.breadcrumb-item + .breadcrumb-item::before {
-    color: var(--light);
-}
+    .breadcrumb-item+.breadcrumb-item::before {
+      color: var(--light);
+    }
 
 
-/*** Img Border ***/
-.img-border {
-    position: relative;
-    height: 100%;
-    min-height: 400px;
-}
+    /*** Img Border ***/
+    .img-border {
+      position: relative;
+      height: 100%;
+      min-height: 400px;
+    }
 
-.img-border::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    right: 3rem;
-    bottom: 3rem;
-    border: 5px solid var(--primary);
-}
+    .img-border::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 3rem;
+      bottom: 3rem;
+      border: 5px solid var(--primary);
+    }
 
-.img-border img {
-    position: absolute;
-    top: 3rem;
-    left: 3rem;
-    width: calc(100% - 3rem);
-    height: calc(100% - 3rem);
-    object-fit: cover;
-}
-/*** Footer ***/
-.footer {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(bg-2.jpg) center center no-repeat;
-    background-size: cover;
-}
+    .img-border img {
+      position: absolute;
+      top: 3rem;
+      left: 3rem;
+      width: calc(100% - 3rem);
+      height: calc(100% - 3rem);
+      object-fit: cover;
+    }
 
-.footer .btn.btn-social {
-    margin-right: 5px;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--light);
-    border: 1px solid #FFFFFF;
-    transition: .3s;
-}
+    /*** Footer ***/
+    .footer {
+      background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(bg-2.jpg) center center no-repeat;
+      background-size: cover;
+    }
 
-.footer .btn.btn-social:hover {
-    color: var(--primary);
-}
+    .footer .btn.btn-social {
+      margin-right: 5px;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--light);
+      border: 1px solid #FFFFFF;
+      transition: .3s;
+    }
 
-.footer .btn.btn-link {
-    display: block;
-    margin-bottom: 5px;
-    padding: 0;
-    text-align: left;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: normal;
-    text-transform: capitalize;
-    transition: .3s;
-}
+    .footer .btn.btn-social:hover {
+      color: var(--primary);
+    }
 
-.footer .btn.btn-link::before {
-    position: relative;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 10px;
-}
+    .footer .btn.btn-link {
+      display: block;
+      margin-bottom: 5px;
+      padding: 0;
+      text-align: left;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: normal;
+      text-transform: capitalize;
+      transition: .3s;
+    }
 
-.footer .btn.btn-link:hover {
-    color: var(--primary);
-    letter-spacing: 1px;
-    box-shadow: none;
-}
+    .footer .btn.btn-link::before {
+      position: relative;
+      content: "\f105";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      margin-right: 10px;
+    }
 
-.footer .copyright {
-    padding: 25px 0;
-    font-size: 15px;
-    border-top: 1px solid rgba(256, 256, 256, .1);
-}
+    .footer .btn.btn-link:hover {
+      color: var(--primary);
+      letter-spacing: 1px;
+      box-shadow: none;
+    }
 
-.footer .copyright a {
-    color: var(--light);
-}
+    .footer .copyright {
+      padding: 25px 0;
+      font-size: 15px;
+      border-top: 1px solid rgba(256, 256, 256, .1);
+    }
 
-.footer .copyright a:hover {
-    color: var(--primary);
-}
-    </style>
-  </head>
+    .footer .copyright a {
+      color: var(--light);
+    }
 
-  <body>
-    <!--topbar start-->
-<div class="container-fluid bg-light p-0 wow fadein" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadein;">
-  <div class="row gx-0 d-none d-lg-flex">
-  <div class="col-lg-7 px-5 text-start">
-  <div class="h-100 d-inline-flex align-items-centre py-3 me-4">
-      <small class="fa fa-map-marker-alt text-success me-2"></small>
-      <small>123 street, New York, USA</small>
-  </div>
-  <div class="h-100 d-inline-flex align-items-centre py-3">
-      <small class="far fa-clock text-success me-2"></small>
-      <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
-  </div>
-   </div>
-   <div class="col-lg-5 px-5 text-end">
-      <div class="h-100 d-inline-flex align-items-centre py-3 me-4">
-      <small class="fa fa-phone-alt text-success me-2"></small>
-      <small>+012 345 6789</small>
+    .footer .copyright a:hover {
+      color: var(--primary);
+    }
+  </style>
+</head>
+
+<body>
+  <!--topbar start-->
+  <div class="container-fluid bg-light p-0 wow fadein" data-wow-delay="0.1s"
+    style="visibility: visible; animation-delay: 0.1s; animation-name: fadein;">
+    <div class="row gx-0 d-none d-lg-flex">
+      <div class="col-lg-7 px-5 text-start">
+        <div class="h-100 d-inline-flex align-items-centre py-3 me-4">
+          <small class="fa fa-map-marker-alt text-success me-2"></small>
+          <small>123 street, New York, USA</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-centre py-3">
+          <small class="far fa-clock text-success me-2"></small>
+          <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+        </div>
       </div>
-      <div class="h-100 d-inline-flex align-items-centre">
+      <div class="col-lg-5 px-5 text-end">
+        <div class="h-100 d-inline-flex align-items-centre py-3 me-4">
+          <small class="fa fa-phone-alt text-success me-2"></small>
+          <small>+012 345 6789</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-centre">
           <a class="btn btn-sm-square bg-white text-success me-1" href>
-              <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-facebook-f"></i>
           </a>
           <a class="btn btn-sm-square bg-white text-success me-1" href>
-              <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter"></i>
           </a>
           <a class="btn btn-sm-square bg-white text-success me-1" href>
-              <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-linkedin-in"></i>
           </a>
           <a class="btn btn-sm-square bg-white text-success me-1" href>
-              <i class="fab fa-instagram"></i>
+            <i class="fab fa-instagram"></i>
           </a>
+        </div>
       </div>
-   </div>    
-</div>
-</div>
-<!--topbarend-->
+    </div>
+  </div>
+  <!--topbarend-->
 
 
   <!-- Navbar Start -->
-  <nav
-    class="navbar navbar-expand-lg bg-Secondary navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
-    data-wow-delay="0.1s"
-  >
+  <nav class="navbar navbar-expand-lg bg-Secondary navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+    data-wow-delay="0.1s">
     <a href="index.html" class="navbar-brand p-0">
       <img class="img-fluid me-3" src="icon-10.png" alt="Icon" />
       <h1 class="m-0 text-success">Zoofari</h1>
     </a>
-    <button
-      type="button"
-      class="navbar-toggler"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarCollapse"
-    >
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
@@ -441,12 +434,7 @@
         <a href="about.html" class="nav-item nav-link">About</a>
         <a href="service.html" class="nav-item nav-link">Services</a>
         <div class="nav-item dropdown">
-          <a
-            href="#"
-            class="nav-link dropdown-toggle"
-            data-bs-toggle="dropdown"
-            >Pages</a
-          >
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
           <div class="dropdown-menu rounded-0 rounded-bottom m-0">
             <a href="animal.html" class="dropdown-item">Our Animals</a>
             <a href="membership.html" class="dropdown-item">Membership</a>
@@ -457,261 +445,184 @@
         </div>
         <a href="contact.html" class="nav-item nav-link">Contact</a>
       </div>
-      <a href="" class="btn btn-success"
-        >Buy Ticket<i class="fa fa-arrow-right ms-3"></i
-      ></a>
+      <a href="" class="btn btn-success">Buy Ticket<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
   </nav>
   <!-- Navbar End -->
 
- <!-- Page Header Start -->
- <div
- class="container-fluid header-bg py-5 mb-5 wow fadeIn"
- data-wow-delay="0.1s"
->
- <div class="container py-5">
-   <h1 class="display-4 text-white mb-3 animated slideInDown">Services</h1>
-   <nav aria-label="breadcrumb animated slideInDown">
-     <ol class="breadcrumb mb-0">
-       <li class="breadcrumb-item">
-         <a class="text-white" href="#">Home</a>
-       </li>
-       <li class="breadcrumb-item">
-         <a class="text-white" href="#">Pages</a>
-       </li>
-       <li class="breadcrumb-item text-primary active" aria-current="page">
-         Services
-       </li>
-     </ol>
-   </nav>
- </div>
-</div>
-<!-- Page Header End -->
+  <!-- Page Header Start -->
+  <div class="container-fluid header-bg py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <h1 class="display-4 text-white mb-3 animated slideInDown">Services</h1>
+      <nav aria-label="breadcrumb animated slideInDown">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item">
+            <a class="text-white" href="#">Home</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a class="text-white" href="#">Pages</a>
+          </li>
+          <li class="breadcrumb-item text-primary active" aria-current="page">
+            Services
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- Page Header End -->
 
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="col-lg-6">
-            <p><span class="text-success me-2">#</span>Our Services</p>
-            <h1 class="display-5 mb-0">
-              Special Services For
-              <span class="text-success">Zoofari</span> Visitors
-            </h1>
-          </div>
-          <div class="col-lg-6">
-            <div
-              class="bg-success h-100 d-flex align-items-center py-4 px-4 px-sm-5"
-            >
-              <i class="fa fa-3x fa-mobile-alt text-white"></i>
-              <div class="ms-4">
-                <p class="text-white mb-0">Call for more info</p>
-                <h2 class="text-white mb-0">+012 345 6789</h2>
-              </div>
+  <!-- Service Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-6">
+          <p><span class="text-success me-2">#</span>Our Services</p>
+          <h1 class="display-5 mb-0">
+            Special Services For
+            <span class="text-success">Zoofari</span> Visitors
+          </h1>
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-success h-100 d-flex align-items-center py-4 px-4 px-sm-5">
+            <i class="fa fa-3x fa-mobile-alt text-white"></i>
+            <div class="ms-4">
+              <p class="text-white mb-0">Call for more info</p>
+              <h2 class="text-white mb-0">+012 345 6789</h2>
             </div>
           </div>
         </div>
-        <div class="row gy-5 gx-4">
-          <div
-            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
-            <img class="img-fluid mb-3" src="icon-2.png" alt="Icon" />
-            <h5 class="mb-3">Car Parking</h5>
-            <span
-              >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-              sed diam stet diam sed stet.</span
-            >
+      </div>
+      <div class="row gy-5 gx-4">
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+          <img class="img-fluid mb-3" src="icon-2.png" alt="Icon" />
+          <h5 class="mb-3">Car Parking</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+          <img class="img-fluid mb-3" src="icon-3.png" alt="Icon" />
+          <h5 class="mb-3">Animal Photos</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+          <img class="img-fluid mb-3" src="icon-4.png" alt="Icon" />
+          <h5 class="mb-3">Guide Services</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+          <img class="img-fluid mb-3" src="icon-5.png" alt="Icon" />
+          <h5 class="mb-3">Food & Beverages</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+          <img class="img-fluid mb-3" src="icon-6.png" alt="Icon" />
+          <h5 class="mb-3">Zoo Shopping</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+          <img class="img-fluid mb-3" src="icon-7.png" alt="Icon" />
+          <h5 class="mb-3">Free Hi Speed Wi-Fi</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+          <img class="img-fluid mb-3" src="icon-8.png" alt="Icon" />
+          <h5 class="mb-3">Play Ground</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+          <img class="img-fluid mb-3" src="icon-9.png" alt="Icon" />
+          <h5 class="mb-3">Rest House</h5>
+          <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
+            sed diam stet diam sed stet.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Service End -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Address</h5>
+          <p class="mb-2">
+            <i class="fa fa-map-marker-alt text-success me-3"></i>123 Street, New York, USA
+          </p>
+          <p class="mb-2">
+            <i class="fa fa-phone-alt text-success me-3"></i>+012 345 67890
+          </p>
+          <p class="mb-2">
+            <i class="fa fa-envelope text-success me-3"></i>info@example.com
+          </p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-outline-success btn-social" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-success btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-success
+              btn-social" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-outline-success btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
           </div>
-          <div
-            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-            data-wow-delay="0.3s"
-          >
-            <img class="img-fluid mb-3" src="icon-3.png" alt="Icon" />
-            <h5 class="mb-3">Animal Photos</h5>
-            <span
-              >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-              sed diam stet diam sed stet.</span
-            >
-          </div>
-          <div
-            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-            data-wow-delay="0.5s"
-          >
-            <img class="img-fluid mb-3" src="icon-4.png" alt="Icon" />
-            <h5 class="mb-3">Guide Services</h5>
-            <span
-              >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-              sed diam stet diam sed stet.</span
-            >
-          </div>
-          <div
-            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-            data-wow-delay="0.7s"
-          >
-            <img class="img-fluid mb-3" src="icon-5.png" alt="Icon" />
-            <h5 class="mb-3">Food & Beverages</h5>
-            <span
-              >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-              sed diam stet diam sed stet.</span
-            >
-          </div>
-          <div
-            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
-            <img class="img-fluid mb-3" src="icon-6.png" alt="Icon" />
-            <h5 class="mb-3">Zoo Shopping</h5>
-            <span
-              >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-              sed diam stet diam sed stet.</span
-            >
-          </div>
-          <div
-            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-            data-wow-delay="0.3s"
-          >
-            <img class="img-fluid mb-3" src="icon-7.png" alt="Icon" />
-            <h5 class="mb-3">Free Hi Speed Wi-Fi</h5>
-            <span
-              >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-              sed diam stet diam sed stet.</span
-            >
-          </div>
-          <div
-            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-            data-wow-delay="0.5s"
-          >
-            <img class="img-fluid mb-3" src="icon-8.png" alt="Icon" />
-            <h5 class="mb-3">Play Ground</h5>
-            <span
-              >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-              sed diam stet diam sed stet.</span
-            >
-          </div>
-          <div
-            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-            data-wow-delay="0.7s"
-          >
-            <img class="img-fluid mb-3" src="icon-9.png" alt="Icon" />
-            <h5 class="mb-3">Rest House</h5>
-            <span
-              >Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem
-              sed diam stet diam sed stet.</span
-            >
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Quick Links</h5>
+          <a class="btn btn-link" href="">About Us</a>
+          <a class="btn btn-link" href="">Contact Us</a>
+          <a class="btn btn-link" href="">Our Services</a>
+          <a class="btn btn-link" href="">Terms & Condition</a>
+          <a class="btn btn-link" href="">Support</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Popular Links</h5>
+          <a class="btn btn-link" href="">About Us</a>
+          <a class="btn btn-link" href="">Contact Us</a>
+          <a class="btn btn-link" href="">Our Services</a>
+          <a class="btn btn-link" href="">Terms & Condition</a>
+          <a class="btn btn-link" href="">Support</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">News letter</h5>
+          <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <div class="position-relative mx-auto" style="max-width: 400px">
+            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
+            <button type="button" class="btn btn-success py-2 position-absolute top-0 end-0 mt-2 me-2">
+              SignUp
+            </button>
           </div>
         </div>
       </div>
     </div>
-    <!-- Service End -->
-
-    <!-- Footer Start -->
-    <div
-      class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Address</h5>
-            <p class="mb-2">
-              <i class="fa fa-map-marker-alt text-success me-3"></i>123 Street, New York, USA
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-phone-alt text-success me-3"></i>+012 345 67890
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-envelope text-success me-3"></i>info@example.com
-            </p>
-            <div class="d-flex pt-2">
-              <a class="btn btn-outline-success btn-social" href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a class="btn btn-outline-success btn-social" href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-outline-success
-              btn-social" href=""
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a class="btn btn-outline-success btn-social" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
+    <div class="container">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All
+            Right Reserved.
           </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Quick Links</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Popular Links</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">News letter</h5>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <div class="position-relative mx-auto" style="max-width: 400px">
-              <input
-                class="form-control border-0 w-100 py-3 ps-4 pe-5"
-                type="text"
-                placeholder="Your email"
-              />
-              <button
-                type="button"
-                class="btn btn-success py-2 position-absolute top-0 end-0 mt-2 me-2"
-              >
-                SignUp
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a class="border-bottom" href="#">Your Site Name</a>, All
-              Right Reserved.
-            </div>
-            <div class="col-md-6 text-center text-md-end">
-              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-              Designed By
-              <a class="border-bottom" href="https://htmlcodex.com"
-                >HTML Codex</a
-              >
-              <br />Distributed By:
-              <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
-            </div>
+          <div class="col-md-6 text-center text-md-end">
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            Designed By
+            <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+            <br />Distributed By:
+            <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
           </div>
         </div>
       </div>
     </div>
-    <!-- Footer End -->
+  </div>
+  <!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="wow.min.js"></script>
-    <script src="easing.min.js/easing.js"></script>
-    <script src="waypoints.min.js"></script>
-    <script src="counterup.min.js"></script>
-    <script src="owl.carousel.min.js"></script>
-    <script src="lightbox.min.js/lightbox.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-    <!-- Template Javascript -->
-    <script src="main.js"></script>
-  </body>
 </html>
