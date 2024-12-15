@@ -3,7 +3,9 @@
 * {
     font-family: 'poppins';
 }
-
+html{
+    scroll-behavior: smooth;
+}
 :root {
     --primary: #2EB872;
     --light: #F3F4F5;
